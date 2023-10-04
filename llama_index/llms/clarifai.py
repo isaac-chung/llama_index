@@ -6,7 +6,8 @@ from llama_index.llms.base import (
     LLM,
     CompletionResponse,
     llm_completion_callback,
-    LLMMetadata
+    LLMMetadata,
+    CompletionResponseGen
 )
 
 
