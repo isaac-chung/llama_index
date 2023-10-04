@@ -9,7 +9,7 @@ from llama_index.llms.base import (
 )
 
 
-class ClarifaiLLM(CustomLLM, extra=Extra.allow):
+class ClarifaiLLM(LLM, extra=Extra.allow):
     """Simple abstract base class for custom LLMs.
 
     Subclasses must implement the `__init__`, `complete`,
