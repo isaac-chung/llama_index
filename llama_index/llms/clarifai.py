@@ -1,4 +1,4 @@
-from typing import Any, Sequence, List, Optional
+from typing import Any, Sequence, List, Optional, Dict
 from google.protobuf.json_format import MessageToDict
 from pydantic import BaseModel, ValidationError, Extra
 from llama_index.callbacks import CallbackManager
